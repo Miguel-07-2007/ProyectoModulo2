@@ -42,6 +42,10 @@ public class Criatura {
         esquivaActiva = true;
     }
 
+    public void aumentarVida(int cantidad){
+        vida += cantidad;
+    }
+
     //getters
     public String getNombre(){return nombre;}
     public int getAtaque(){return ataque;}
